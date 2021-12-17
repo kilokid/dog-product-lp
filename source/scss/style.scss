@@ -1,3 +1,5 @@
-@import './base.scss';
+@import "./base.scss";
 
-@import 'blocks/page';
+@import "blocks/core/visually-hidden.scss";
+
+@import "blocks/page";
