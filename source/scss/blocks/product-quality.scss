@@ -1,0 +1,12 @@
+@import "../mixins.scss";
+
+.product-quality {
+    &__list {
+        @include reset-list;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+        row-gap: 60px;
+    }
+}

@@ -1,5 +1,8 @@
 @import "./base.scss";
 
-@import "blocks/core/visually-hidden.scss";
+@import "blocks/core/visually-hidden";
+@import "blocks/core/container";
 
 @import "blocks/page";
+@import "blocks/product-quality-card";
+@import "blocks/product-quality";
